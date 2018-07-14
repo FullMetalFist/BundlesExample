@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7C294A2E1EF0477700590235 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C294A2D1EF0477700590235 /* data.plist */; };
-		7C294A301EF0492500590235 /* EnglishTC.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C294A2F1EF0492500590235 /* EnglishTC.txt */; };
 		7C7D00001EE6FA2D00C1F416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DFFFE1EE6FA2D00C1F416 /* Main.storyboard */; };
-		7C7D00091EE6FDEB00C1F416 /* rypress-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7D00081EE6FDEB00C1F416 /* rypress-logo.png */; };
 		7C7DFFF51EE6FA2D00C1F416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DFFF41EE6FA2D00C1F416 /* AppDelegate.m */; };
 		7C7DFFF81EE6FA2D00C1F416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DFFF71EE6FA2D00C1F416 /* main.m */; };
 		7C7DFFFB1EE6FA2D00C1F416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DFFFA1EE6FA2D00C1F416 /* ViewController.m */; };
 		7C7DFFFD1EE6FA2D00C1F416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DFFFC1EE6FA2D00C1F416 /* Assets.xcassets */; };
+		7CDEB24520F89DF400356206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CDEB24320F89DF400356206 /* InfoPlist.strings */; };
+		7CDEB24620F89E2C00356206 /* rypress-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDEB24820F89E2C00356206 /* rypress-logo.png */; };
+		7CDEB24A20F8AB2D00356206 /* EnglishTC.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7CDEB24C20F8AB2D00356206 /* EnglishTC.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C294A2D1EF0477700590235 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
-		7C294A2F1EF0492500590235 /* EnglishTC.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EnglishTC.txt; sourceTree = "<group>"; };
 		7C7D00011EE6FA2D00C1F416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C7D00081EE6FDEB00C1F416 /* rypress-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rypress-logo.png"; sourceTree = "<group>"; };
 		7C7DFFF01EE6FA2D00C1F416 /* BundlesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BundlesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7DFFF31EE6FA2D00C1F416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C7DFFF41EE6FA2D00C1F416 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +31,11 @@
 		7C7DFFFF1EE6FA2D00C1F416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CDEB24120F832C200356206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		7CDEB24220F8335500356206 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		7CDEB24420F89DF400356206 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CDEB24720F89E2C00356206 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/rypress-logo.png"; sourceTree = "<group>"; };
+		7CDEB24920F89E4800356206 /* es */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = es; path = "es.lproj/rypress-logo.png"; sourceTree = "<group>"; };
+		7CDEB24B20F8AB2D00356206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/EnglishTC.txt; sourceTree = "<group>"; };
+		7CDEB24D20F8AB2F00356206 /* es */ = {isa = PBXFileReference; lastKnownFileType = text; name = es; path = es.lproj/EnglishTC.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +52,8 @@
 		7C7D00071EE6FDDB00C1F416 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C7D00081EE6FDEB00C1F416 /* rypress-logo.png */,
-				7C294A2F1EF0492500590235 /* EnglishTC.txt */,
+				7CDEB24820F89E2C00356206 /* rypress-logo.png */,
+				7CDEB24C20F8AB2D00356206 /* EnglishTC.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -82,6 +86,7 @@
 				7C7DFFFE1EE6FA2D00C1F416 /* Main.storyboard */,
 				7C294A2D1EF0477700590235 /* data.plist */,
 				7C7D00011EE6FA2D00C1F416 /* Info.plist */,
+				7CDEB24320F89DF400356206 /* InfoPlist.strings */,
 				7C7DFFF61EE6FA2D00C1F416 /* Supporting Files */,
 			);
 			path = BundlesExample;
@@ -138,6 +143,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 7C7DFFE71EE6FA2D00C1F416;
 			productRefGroup = 7C7DFFF11EE6FA2D00C1F416 /* Products */;
@@ -154,8 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C7D00091EE6FDEB00C1F416 /* rypress-logo.png in Resources */,
-				7C294A301EF0492500590235 /* EnglishTC.txt in Resources */,
+				7CDEB24620F89E2C00356206 /* rypress-logo.png in Resources */,
+				7CDEB24520F89DF400356206 /* InfoPlist.strings in Resources */,
+				7CDEB24A20F8AB2D00356206 /* EnglishTC.txt in Resources */,
 				7C7DFFFD1EE6FA2D00C1F416 /* Assets.xcassets in Resources */,
 				7C294A2E1EF0477700590235 /* data.plist in Resources */,
 				7C7D00001EE6FA2D00C1F416 /* Main.storyboard in Resources */,
@@ -186,6 +193,32 @@
 				7CDEB24220F8335500356206 /* es */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CDEB24320F89DF400356206 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDEB24420F89DF400356206 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CDEB24820F89E2C00356206 /* rypress-logo.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDEB24720F89E2C00356206 /* en */,
+				7CDEB24920F89E4800356206 /* es */,
+			);
+			name = "rypress-logo.png";
+			sourceTree = "<group>";
+		};
+		7CDEB24C20F8AB2D00356206 /* EnglishTC.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDEB24B20F8AB2D00356206 /* en */,
+				7CDEB24D20F8AB2F00356206 /* es */,
+			);
+			name = EnglishTC.txt;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
